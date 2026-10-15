@@ -1,0 +1,69 @@
+{
+  "dimensions": 2,
+  "field": {
+    "width": 320,
+    "height": 320
+  },
+  "durationMs": 1600,
+  "fps": 24,
+  "loop": false,
+  "emitters": [
+    {
+      "name": "sparks",
+      "shape": "point",
+      "position": [
+        160.0,
+        160.0,
+        0.0
+      ],
+      "extent": {
+        "radius": 1.0,
+        "size": [
+          65.0,
+          12.0,
+          0.0
+        ]
+      },
+      "emission": {
+        "mode": "burst",
+        "count": 35,
+        "atMs": 0.0
+      },
+      "lifetimeMs": 700.0,
+      "lifetimeSpread": 250.0,
+      "speed": 70.0,
+      "speedSpread": 30.0,
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "coneAngle": 65.0,
+      "forces": {},
+      "particle": {
+        "sizeCurve": {
+          "interp": "linear",
+          "from": 0.6,
+          "to": 0.1
+        },
+        "opacityCurve": {
+          "interp": "linear",
+          "from": 0.85,
+          "to": 0.0
+        },
+        "colorGradient": [
+          {
+            "color": "#caffeb",
+            "at": 0.0
+          },
+          {
+            "color": "#65d6d1",
+            "at": 1.0
+          }
+        ]
+      }
+    }
+  ],
+  "forces": {},
+  "subEmitters": []
+}

@@ -1,0 +1,12 @@
+/* Keep the page's viewport-sized surface responsive when the runtime pins its
+   inline CSS dimensions. The engine still owns backing resolution and fitting. */
+#stage {
+  width: 100vw !important;
+  height: 100vh !important;
+  background: #0d1b24;
+}
+
+html,
+body {
+  background: #0d1b24;
+}
